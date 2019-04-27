@@ -1,0 +1,53 @@
+<div class="row">
+    <div class="col-3">
+        <p>名前</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.name }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>年齢</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.age }}</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <p>タイトル</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.ronbunt }}</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-3">
+         <p>論文</p>
+    </div>
+    <div class="col-9">
+         <p>{{item.ronbun}}</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <p>概要</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.memo|linebreaksbr }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>登録日</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.created_at|date:"Y/m/d G:i:s" }}</p>
+    </div>
+</div>
+
